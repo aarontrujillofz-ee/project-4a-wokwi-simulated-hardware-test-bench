@@ -1,0 +1,11 @@
+Project 4A Wokwi Simulated Hardware Test Bench
+---------------------------------------------
+Data file used: wokwi_serial_log.csv
+Total samples: 48
+Min ADC: 0
+Max ADC: 1023
+Min voltage: 0.000 V
+Max voltage: 5.000 V
+Average voltage: 2.607 V
+Status counts: {'NORMAL': 38, 'FAIL': 7, 'WARN': 3}
+Final result: FAIL
