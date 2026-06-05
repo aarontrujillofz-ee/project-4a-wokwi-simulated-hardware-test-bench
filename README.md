@@ -8,6 +8,10 @@ The project simulates an Arduino Uno reading an analog voltage from a potentiome
 
 This project is the bridge between my virtual Project 3 sensor logger and a future real-hardware Project 4 using Arduino, Tiva-C, ESP32, or Raspberry Pi Pico.
 
+## Live Wokwi Simulation
+
+[Open Project 4A in Wokwi](https://wokwi.com/projects/466029466313485313)
+
 ## Engineering Goal
 
 The goal of this project is to prove a complete test and validation workflow:
@@ -59,6 +63,7 @@ Project_4A_Wokwi_Simulated_Hardware_Test_Bench/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── .gitattributes
 │
 ├── wokwi/
 │   ├── sketch.ino
@@ -82,15 +87,13 @@ Project_4A_Wokwi_Simulated_Hardware_Test_Bench/
 │   ├── test_plan.md
 │   └── engineering_notes.md
 │
-├── evidence/
-│   ├── wokwi_voltage_plot_stress_test.png
-│   ├── project4a_summary_stress_test.txt
-│   ├── project4a_report_stress_test.pdf
-│   ├── wokwi_voltage_plot_final_run.png
-│   ├── project4a_summary_final_run.txt
-│   └── project4a_report_final_run.pdf
-│
-└── screenshots/
+└── evidence/
+    ├── wokwi_voltage_plot_stress_test.png
+    ├── project4a_summary_stress_test.txt
+    ├── project4a_report_stress_test.pdf
+    ├── wokwi_voltage_plot_final_run.png
+    ├── project4a_summary_final_run.txt
+    └── project4a_report_final_run.pdf
 ```
 
 ## Wokwi Circuit
